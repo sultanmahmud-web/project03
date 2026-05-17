@@ -1,0 +1,95 @@
+#footer{
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#footer .icon i{
+    font-size: 26px;
+    padding: 10px 0px;
+    margin-right: 8px;
+}
+#footer .coustom_card{
+    width: 100% !important;
+    height: 477px;
+    background: #292d33;
+    color: #fff;
+}
+#footer .coustom_card_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#footer .coustom_card_body i{
+    color: #ffb400;
+    padding: 15px 0px;
+    font-size: 45px;
+}
+#footer .coustom_card_body a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 200;
+}
+#footer .coustom_card_body p{
+    font-size: 16px;
+    font-weight: 200;
+}
+/* Coustom Card */
+
+#footer .footer_right{}
+#footer .footer_right h1{
+    font-size: 60px;
+    line-height: 100px;
+    font-weight: 700;
+}
+#footer .footer_right p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+#footer .footer_right a{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background: #000;
+    color: #fff;
+    margin-top: 20px;
+    outline: none;
+    padding: 12px 27px;
+    border: 2px solid #000;
+}
+#footer .footer_right a:hover{
+    background: #fff;
+    color: #000;
+    border: 2px solid #000;
+}
+#footer .footer_right input{
+    width: 530px;
+    height: 45px;
+    background: transparent;
+    border: none;
+    padding: 0px 18px;
+    /* outline: #000; */
+    border-bottom: 1px dotted #888888;
+}
+#footer .footer_right input::placeholder{
+    color: #888888;
+    font-size: 20px;
+    font-weight: 400;
+}
+#footer .footer_right textarea{
+    background: transparent;
+    padding: 0px 18px;
+    border: none;
+    /* outline: 2px solid#000; */
+    border-bottom: 1px dotted #888888;
+}
+#footer .footer_right textarea::placeholder{
+    color: #888888;
+    font-size: 20px;
+    font-weight: 400;
+}

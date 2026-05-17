@@ -1,0 +1,44 @@
+#about{
+    width: 100%;
+    min-height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgs img{
+    width: 355px;
+    margin-left: -10px;
+    margin-top: 48px;
+    position: absolute;
+}
+.pragef p{
+    width: 400px;
+    background-color: white;
+    text-align: center;
+    padding: 100px;
+}
+.pragef button{
+    position: absolute;
+    margin-top: -88px;
+    margin-left: 140px;
+    border: none;
+    outline: none;
+    background-color: #FFBF1C;
+    width: 150px;
+    height: 35px;
+    color: #9B6423;
+}
+#about{
+    background-color: #282B32;
+}
+.honetow {
+    padding: 30px;
+    margin-top: 62px;
+    color: white;
+}
+.honetow h1{
+    text-transform: lowercase;
+    font-size: 80px;
+    color: #FCA20E;
+}
